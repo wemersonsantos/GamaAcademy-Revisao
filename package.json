@@ -1,0 +1,27 @@
+{
+  "name": "pergunta-resposta-nodejs",
+  "version": "1.0.0",
+  "description": "pacote para testar o funcionanemto do NPM",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wemersonsantos/Node.js-GamaAcademy.git"
+  },
+  "keywords": [
+    "url",
+    "pergunta",
+    "respostas"
+  ],
+  "author": "Wemerson Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wemersonsantos/Node.js-GamaAcademy/issues"
+  },
+  "homepage": "https://github.com/wemersonsantos/Node.js-GamaAcademy#readme",
+  "dependencies": {
+    "query-string": "^7.0.1"
+  }
+}
