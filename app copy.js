@@ -11,12 +11,14 @@ const port = 3000;
 const server = http.createServer((req, res) => {
 
   //*Pegar a pergunta na url
+  let resposta;
+  const urlparse = url.parse(req.url, true);
   
-  const params = queryString.parse(url.parse(req.url, true).search);
+  const params = queryString.parse(urlparse.search);
+  
   console.log(params);
   //*Verificar a pergunta e escolher a resposta
   
-  let resposta;
   if(params.pergunta == 'melhor-filme'){
     resposta = 'star wars'
     //console.log()imprimi no terminal

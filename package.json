@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/wemersonsantos/Node.js-GamaAcademy#readme",
   "dependencies": {
-    "query-string": "^7.0.1"
+    "@types/node": "^16.4.2",
+    "query-string": "^7.0.1",
+    "typescript": "^4.3.5"
   }
 }
